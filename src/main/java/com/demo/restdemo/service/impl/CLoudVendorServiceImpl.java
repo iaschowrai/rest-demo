@@ -3,9 +3,10 @@ package com.demo.restdemo.service.impl;
 import com.demo.restdemo.model.CloudVendor;
 import com.demo.restdemo.repository.CloudVendorRepository;
 import com.demo.restdemo.service.CloudVendorService;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+@Service
 public class CLoudVendorServiceImpl implements CloudVendorService {
 
     CloudVendorRepository cloudVendorRepository;
